@@ -3,7 +3,42 @@ guid: b6eb5e11e434adc46bfc33fe00880b1b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Collar
+    second: {fileID: 2100000, guid: c785ef4f5c5d70b4b863fa56915a3523, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ears
+    second: {fileID: 2100000, guid: b3136d86b6d1b2c429cca9a3ddd1ff40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeColor
+    second: {fileID: 2100000, guid: 1cddee653cdd7364ca6529aa54928fec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeHighlight
+    second: {fileID: 2100000, guid: 993ec9b9c5d7e3e42b8c51f9225f70fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NormalBlackFur
+    second: {fileID: 2100000, guid: a1c988fc19d586149b57a190f3d2d808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NormalFur
+    second: {fileID: 2100000, guid: d6d64c4850ab9494b8956c8c0ed88e3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pupil
+    second: {fileID: 2100000, guid: 3b747d101e3932f4ebb2fb0b97c94fde, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
