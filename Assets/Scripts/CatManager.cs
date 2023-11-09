@@ -8,11 +8,21 @@ public class CatManager : MonoBehaviour
     [SerializeField] private NavMeshAgent agent;
     [SerializeField] private Animator animator;
     [SerializeField] private Transform target;
+    [SerializeField] private PlayerController playerController;
+
+    private Transform targetAnimal = null;
 
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(target.position);
+        if (targetAnimal != null)
+        {
+            agent.SetDestination(targetAnimal.position);
+        }
+        else
+        {
+            agent.SetDestination(target.position);
+        }
         if (agent.remainingDistance <= agent.stoppingDistance)
         {
             animator.ResetTrigger("Walk");
@@ -22,6 +32,29 @@ public class CatManager : MonoBehaviour
         {
             animator.SetTrigger("Walk");
             animator.ResetTrigger("Idle");
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Animal"))
+        {
+            ResetTarget(other.transform);
+            playerController.AddAnimal();
+            Destroy(other.gameObject);
+        }
+    }
+
+    public void SetTargetAnimal(Transform animal)
+    {
+        targetAnimal = animal;
+    }
+
+    public void ResetTarget(Transform target)
+    {
+        if (targetAnimal == target)
+        {
+            targetAnimal = null;
         }
     }
 }

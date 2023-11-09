@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
+using TMPro;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -17,6 +18,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private Transform orientation;
     [SerializeField] private Transform visualTransform;
+    [SerializeField] private TextMeshProUGUI animalCountText;
+    [SerializeField] private CatManager catManager;
 
     private float groundCheckRadius = 0.3f;
     private float speed = 8;
@@ -27,6 +30,7 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
     private bool canMove = true;
+    private int savedAnimals = 0;
 
     void Start()
     {
@@ -99,5 +103,31 @@ public class PlayerController : MonoBehaviour
         bool isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckRadius, groundMask);
         Gizmos.color = isGrounded ? Color.green : Color.red;
         Gizmos.DrawSphere(groundCheck.position, groundCheckRadius);
+    }
+
+    private void UpdateAnimalText()
+    {
+        animalCountText.text = "Saved Animals: " + savedAnimals.ToString("N0", CultureInfo.InvariantCulture);
+    }
+
+    public void AddAnimal()
+    {
+        savedAnimals++;
+        UpdateAnimalText();
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Animal"))
+        {
+            AddAnimal();
+            catManager.ResetTarget(other.transform);
+            Destroy(other.gameObject);
+        }
+
+        else if (other.CompareTag("Animal2"))
+        {
+            catManager.SetTargetAnimal(other.transform);
+        }
     }
 }
