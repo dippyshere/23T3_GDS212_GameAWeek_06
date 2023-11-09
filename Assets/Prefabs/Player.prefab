@@ -58,7 +58,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.55
+  m_Radius: 0.7
   m_Height: 2.1
   m_Direction: 1
   m_Center: {x: 0, y: 1.05, z: 0}
@@ -71,7 +71,7 @@ Rigidbody:
   m_GameObject: {fileID: 3224722274423314713}
   serializedVersion: 4
   m_Mass: 1.3
-  m_Drag: 0.75
+  m_Drag: 4
   m_AngularDrag: 0.15
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -105,11 +105,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   groundCheck: {fileID: 3751580378204313458}
-  moveSpeed: 2.5
+  moveSpeed: 7
   walkMultiplier: 1
   runMultiplier: 1.3
   runVisualMultiplier: 0.2
-  jumpForce: 15
+  jumpForce: 40
   animator: {fileID: 8173869933581687094}
   orientation: {fileID: 5503458605439623816}
   visualTransform: {fileID: 1811813920419822993}
