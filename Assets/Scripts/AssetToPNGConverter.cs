@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+#if UNITY_EDITOR
 public class AssetToPNGConverter : EditorWindow
 {
     [MenuItem("Custom/Convert Assets to PNG")]
     static void ConvertAssetsToPNG()
     {
+
         // Get selected objects
         Object[] selectedObjects = Selection.objects;
 
@@ -49,3 +51,4 @@ public class AssetToPNGConverter : EditorWindow
         }
     }
 }
+#endif
