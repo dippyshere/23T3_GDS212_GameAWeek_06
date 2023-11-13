@@ -46,7 +46,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3224722274423314713}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: a8317e069831b3142abdea22bf25bd91, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -113,6 +113,8 @@ MonoBehaviour:
   animator: {fileID: 8173869933581687094}
   orientation: {fileID: 5503458605439623816}
   visualTransform: {fileID: 1811813920419822993}
+  animalCountText: {fileID: 0}
+  catManager: {fileID: 0}
 --- !u!208 &3139303823980919493
 NavMeshObstacle:
   m_ObjectHideFlags: 0
