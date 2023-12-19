@@ -1,0 +1,84 @@
+ManifestFileVersion: 0
+CRC: 2704025607
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d23cbe45a024bbbc3675f2da9789d9f9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Cargo/Textures/KB3D_CBD_RubberE_height.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcretePainWhiteOLine_height.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelPanelWhiteN_height.png
+- Assets/Cargo/Textures/KB3D_CBD_GlassGreenDirtyA_height.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcreteBaseD_height.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsCyanC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticBlackD_height.png
+- Assets/Cargo/Textures/KB3D_CBD_TentRedStraps_height.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsYellowC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelPanelPaintCyan_height.png
+- Assets/Cargo/Textures/KB3D_CBD_TapesTrimA_height.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelAgedC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcretePainDarkGray_height.png
+- Assets/Cargo/Textures/KB3D_CBD_PlyWoodD_height.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticRedE_height.png
+- Assets/Cargo/Textures/KB3D_CBD_FenceCLE_height.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcreteBaseDLeaked_height.png
+- Assets/Cargo/Textures/KB3D_CBD_BDHalogramA_height.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelGalvanGray_height.png
+- Assets/Cargo/Textures/KB3D_CBD_FloorIndustrialC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_CityLampsTrim_height.png
+- Assets/Cargo/Textures/KB3D_CBD_GlassGreenM_height.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelGridB_height.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticYellowE_height.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintWhiteOld_height.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelPanelGrayC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintGreenC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintBeigeC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_BDFood_height.png
+- Assets/Cargo/Textures/KB3D_CBD_GlassDirt_height.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelRoughBlackT_height.png
+- Assets/Cargo/Textures/KB3D_CBD_BDBannersA_height.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelPanelShinyB_height.png
+- Assets/Cargo/Textures/KB3D_CBD_TrashCM_height.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsPinkC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcreteRoadE_height.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintYellowC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_TrashBagsTrimE_height.png
+- Assets/Cargo/Textures/KB3D_CBD_TentBlueA_height.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcretePainRed_height.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelPanelShinyBOld_height.png
+- Assets/Cargo/Textures/KB3D_CBD_GlassYellowTech_height.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelRustedC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_WoodOldD_height.png
+- Assets/Cargo/Textures/KB3D_CBD_WireTrim_height.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsRedC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_GlassBrownDirtyA_height.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsBrightC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_BDScreensC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcretePaintYellow_height.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticBeigeA_height.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelOld_height.png
+- Assets/Cargo/Textures/KB3D_CBD_BDDetailsAtlasC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_DoorsAtlasC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_StreetTilesGrayC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_CeramicTilesGrayA_height.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintGrayE_height.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintBlueC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_BDSmallBanners_height.png
+- Assets/Cargo/Textures/KB3D_CBD_TentSolarA_height.png
+- Assets/Cargo/Textures/KB3D_CBD_CardboardDirtyC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_StreetTilesC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintRedC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticBlueE_height.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintWhiteE_height.png
+- Assets/Cargo/Textures/KB3D_CBD_GraffitiEU_height.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsGreenC_height.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticWhiteE_height.png
+Dependencies: []

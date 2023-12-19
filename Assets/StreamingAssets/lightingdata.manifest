@@ -1,0 +1,58 @@
+ManifestFileVersion: 0
+CRC: 2766565332
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b21c992f62d659f9777d1a7bbf76f8f3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Scenes/MainLevel/Lightmap-9_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-10_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-6_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-3_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-5_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-2_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-11_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-8_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-1_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-12_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-8_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-0_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-12_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-7_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-13_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-5_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-2_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-10_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-4_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-0_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-13_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-6_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-4_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-11_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-3_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-7_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-10_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-2_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-9_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-9_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-7_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-12_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-1_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-13_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-1_comp_light.exr
+- Assets/Scenes/MainLevel/Lightmap-11_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-5_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-8_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-6_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-0_comp_shadowmask.png
+- Assets/Scenes/MainLevel/Lightmap-3_comp_dir.png
+- Assets/Scenes/MainLevel/Lightmap-4_comp_dir.png
+Dependencies: []

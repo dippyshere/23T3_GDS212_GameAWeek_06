@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+CRC: 981299900
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 078485d718d7d384634560df9c22021b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_G_2_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_pole_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_03_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_09_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_D_1_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_ground_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_1_NormalOpemGL.png
+- Assets/Sketchfab/armpit-city/textures/SlumSetdressing_Normal.tga.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_01_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_H_2_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_C_1_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_3_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_2_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_I_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_A_2_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_C_2_NormalOpemGL.png
+- Assets/Sketchfab/armpit-city/textures/SlumHousing_Normal.tga.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_F_2_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_G_1_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_F_1_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_04_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_02_NormalOpemGL.png
+- Assets/Sketchfab/cyberpunk-temple/textures/lambert1_normal.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_B_2_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_H_1_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_J_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_06_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_E_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_05_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_D_2_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_4_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_B_1_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_07_NormalOpemGL.png
+- Assets/Sketchfab/armpit-city/textures/SlumGenirator_Normal.tga.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_08_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_A_1_NormalOpemGL.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_10_NormalOpemGL.png
+Dependencies: []

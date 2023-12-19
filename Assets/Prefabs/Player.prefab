@@ -344,6 +344,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaperboxGuy_Release1
       objectReference: {fileID: 0}
+    - target: {fileID: 6234758504003529732, guid: 5a77756158436ab429d3abf24f813536,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -376,7 +381,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b389eaeeacb539c4ea0c8b04cbef13d2, type: 2}
-  m_CullingMode: 0
+  m_CullingMode: 2
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0

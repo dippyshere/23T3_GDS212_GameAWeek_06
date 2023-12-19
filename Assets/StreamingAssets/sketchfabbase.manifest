@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+CRC: 2765614761
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 23df067c384dd7320fbd7b521726c987
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_A_1_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_J_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_B_1_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_09_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_07_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_02_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_03_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_F_1_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_2_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_E_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_G_2_BaseColor.png
+- Assets/Sketchfab/armpit-city/textures/SlumHousing_BaseColor.tga.png
+- Assets/Sketchfab/cyberpunk-temple/textures/lambert1_albedo.jpeg
+- Assets/Sketchfab/armpit-city/textures/SlumSetdressing_BaseColor.tga.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_F_2_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_H_1_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_A_2_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_1_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_08_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_D_2_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_pole_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_C_1_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_D_1_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_4_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_3_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_H_2_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_06_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_C_2_BaseColor.png
+- Assets/Sketchfab/armpit-city/textures/SlumGenirator_BaseColor.tga.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_04_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_G_1_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_I_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_10_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_ground_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_05_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Props_01_BaseColor.png
+- Assets/Sketchfab/japanese-street-at-night/textures/Street_Build_B_2_BaseColor.png
+Dependencies: []

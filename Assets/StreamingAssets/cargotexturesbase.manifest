@@ -1,0 +1,84 @@
+ManifestFileVersion: 0
+CRC: 2118399727
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4fe85f1745e4487e75ae0dd29839fe97
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Cargo/Textures/KB3D_CBD_GlassYellowTech_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_BDHalogramA_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelGridB_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintGrayE_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsGreenC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintBlueC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelGalvanGray_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_DoorsAtlasC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_WoodOldD_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintWhiteOld_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsPinkC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticWhiteE_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_BDDetailsAtlasC_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelPanelPaintCyan_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelPanelWhiteN_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelRoughBlackT_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelPanelShinyB_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_TapesTrimA_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_TentSolarA_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_GlassDirt_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcretePaintYellow_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelRustedC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelPanelGrayC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcretePainRed_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticBlackD_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelAgedC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintGreenC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_PlyWoodD_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintBeigeC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticYellowE_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintWhiteE_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_StreetTilesGrayC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_FloorIndustrialC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsRedC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_GlassBrownDirtyA_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintRedC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_GraffitiEU_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_MetalPaintYellowC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_TentRedStraps_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_WireTrim_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_CeramicTilesGrayA_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_GlassGreenM_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_BDSmallBanners_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelPanelShinyBOld_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcretePainWhiteOLine_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_StreetTilesC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_SteelOld_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_CardboardDirtyC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcretePainDarkGray_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticBlueE_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_BDFood_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticBeigeA_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_CityLampsTrim_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_BDBannersA_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_TrashCM_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsBrightC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_RubberE_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_GlassGreenDirtyA_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcreteRoadE_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_TrashBagsTrimE_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsYellowC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_TentBlueA_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcreteBaseD_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_LightsCyanC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_FenceCLE_basecolrgba.png
+- Assets/Cargo/Textures/KB3D_CBD_BDScreensC_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_ConcreteBaseDLeaked_basecolor.png
+- Assets/Cargo/Textures/KB3D_CBD_PlasticRedE_basecolor.png
+Dependencies: []

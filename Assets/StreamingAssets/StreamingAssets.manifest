@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 3471497256
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: cargotexturesbase
+      Dependencies: {}
+    Info_1:
+      Name: cargotexturesemissive
+      Dependencies: {}
+    Info_2:
+      Name: cargotexturesheight
+      Dependencies: {}
+    Info_3:
+      Name: cargotexturesmad
+      Dependencies: {}
+    Info_4:
+      Name: cargotexturesnormal
+      Dependencies: {}
+    Info_5:
+      Name: cargomodel
+      Dependencies:
+        Dependency_0: cargotexturesbase
+        Dependency_1: cargotexturesemissive
+        Dependency_2: cargotexturesheight
+        Dependency_3: cargotexturesmad
+        Dependency_4: cargotexturesnormal
+    Info_6:
+      Name: mainlevel
+      Dependencies:
+        Dependency_0: cargomodel
+        Dependency_1: sketchfab
+    Info_7:
+      Name: sketchfab
+      Dependencies:
+        Dependency_0: sketchfabnormal
+        Dependency_1: sketchfabbase
+    Info_8:
+      Name: sketchfabnormal
+      Dependencies: {}
+    Info_9:
+      Name: sketchfabbase
+      Dependencies: {}
