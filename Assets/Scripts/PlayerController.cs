@@ -88,14 +88,14 @@ public class PlayerController : MonoBehaviour
             
             //rigidBody.MovePosition(rigidBody.position + moveDirection * (speed * Time.fixedDeltaTime));
 
-            animator.SetFloat("RunSpeedMult", direction.magnitude * rigidBody.velocity.magnitude * runVisualMultiplier);
+            animator.SetFloat("RunSpeedMult", direction.magnitude * rigidBody.linearVelocity.magnitude * runVisualMultiplier);
         }
         else
         {
             animator.SetBool("Run", false);
         }
 
-        if (rigidBody.velocity.y <= 0)
+        if (rigidBody.linearVelocity.y <= 0)
         {
             animator.SetBool("Jump", false);
         }
