@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using System.Globalization;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    static readonly int Run = Animator.StringToHash("Run");
+    static readonly int Jump = Animator.StringToHash("Jump");
+    static readonly int RunSpeedMult = Animator.StringToHash("RunSpeedMult");
+    static readonly int Grounded = Animator.StringToHash("Grounded");
+
     [Header("Configuration")]
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private Transform groundCheck;
@@ -27,10 +33,14 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rigidBody;
     private Vector3 direction;
     private Vector3 moveDirection = Vector3.forward;
-    private float horizontalInput;
-    private float verticalInput;
     private bool canMove = true;
     private int savedAnimals = 0;
+
+    InputAction moveAction;
+    InputAction jumpAction;
+    InputAction sprintAction;
+
+    Camera _mainCamera;
 
     void Start()
     {
@@ -38,21 +48,34 @@ public class PlayerController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         UpdateAnimalText();
+        moveAction = InputSystem.actions.FindAction("Move");
+        jumpAction = InputSystem.actions.FindAction("Jump");
+        sprintAction = InputSystem.actions.FindAction("Sprint");
+        _mainCamera = Camera.main;
+        if (Application.isMobilePlatform)
+        {
+            Application.targetFrameRate = Mathf.CeilToInt((float)Screen.currentResolution.refreshRateRatio.value);
+        }
+        else
+        {
+            Application.targetFrameRate = -1;
+        }
+
+        InputSystem.settings.SetInternalFeatureFlag("USE_OPTIMIZED_CONTROLS", true);
+        InputSystem.settings.SetInternalFeatureFlag("USE_READ_VALUE_CACHING", true);
     }
 
     void Update()
     {
-        direction = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical")).normalized;
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-        verticalInput = Input.GetAxisRaw("Vertical");
+        direction = moveAction.ReadValue<Vector2>();
         isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckRadius, groundMask);
 
-        animator.SetBool("Grounded", isGrounded);
+        animator.SetBool(Grounded, isGrounded);
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && canMove)
+        if (jumpAction.WasPressedThisFrame() && isGrounded && canMove)
         {
             rigidBody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            animator.SetBool("Jump", true);
+            animator.SetBool(Jump, true);
         }
         if (canMove)
         {
@@ -66,38 +89,38 @@ public class PlayerController : MonoBehaviour
 
         if (isRunning && canMove)
         {
-            if (Input.GetKey(KeyCode.LeftShift))
+            if (sprintAction.IsPressed())
             {
                 speed = moveSpeed * runMultiplier;
-                animator.SetBool("Run", true);
+                animator.SetBool(Run, true);
                 //animator.SetBool("Walk", false);
             }
             else
             {
                 speed = moveSpeed * walkMultiplier;
-                animator.SetBool("Run", true);
+                animator.SetBool(Run, true);
                 //animator.SetBool("Walk", true);
             }
-            Vector3 viewDir = transform.position - Camera.main.transform.position;
+            Vector3 viewDir = transform.position - _mainCamera.transform.position;
             viewDir.y = 0;
             orientation.forward = viewDir.normalized;
             Quaternion targetRotation = Quaternion.LookRotation(viewDir);
             orientation.rotation = targetRotation;
-            moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
-            rigidBody.AddForce(moveDirection.normalized * speed * 10f, ForceMode.Force);
+            moveDirection = orientation.forward * direction.y + orientation.right * direction.x;
+            rigidBody.AddForce(moveDirection.normalized * (speed * 10f), ForceMode.Force);
             
             //rigidBody.MovePosition(rigidBody.position + moveDirection * (speed * Time.fixedDeltaTime));
 
-            animator.SetFloat("RunSpeedMult", direction.magnitude * rigidBody.linearVelocity.magnitude * runVisualMultiplier);
+            animator.SetFloat(RunSpeedMult, direction.magnitude * rigidBody.linearVelocity.magnitude * runVisualMultiplier);
         }
         else
         {
-            animator.SetBool("Run", false);
+            animator.SetBool(Run, false);
         }
 
         if (rigidBody.linearVelocity.y <= 0)
         {
-            animator.SetBool("Jump", false);
+            animator.SetBool(Jump, false);
         }
     }
 
@@ -110,7 +133,7 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateAnimalText()
     {
-        animalCountText.text = "Saved Animals: " + savedAnimals.ToString("N0", CultureInfo.InvariantCulture);
+        animalCountText.text = "Saved Animals: " + savedAnimals.ToString("N0", CultureInfo.InvariantCulture) + "/9";
     }
 
     public void AddAnimal()

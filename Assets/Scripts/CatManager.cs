@@ -5,6 +5,8 @@ using UnityEngine.AI;
 
 public class CatManager : MonoBehaviour
 {
+    static readonly int Walk = Animator.StringToHash("Walk");
+    static readonly int Idle = Animator.StringToHash("Idle");
     [SerializeField] private NavMeshAgent agent;
     [SerializeField] private Animator animator;
     [SerializeField] private Transform target;
@@ -15,34 +17,29 @@ public class CatManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (targetAnimal != null)
-        {
-            agent.SetDestination(targetAnimal.position);
-        }
-        else
-        {
-            agent.SetDestination(target.position);
-        }
+        agent.SetDestination(targetAnimal ? targetAnimal.position : target.position);
         if (agent.remainingDistance <= agent.stoppingDistance)
         {
-            animator.ResetTrigger("Walk");
-            animator.SetTrigger("Idle");
+            animator.ResetTrigger(Walk);
+            animator.SetTrigger(Idle);
         }
         else
         {
-            animator.SetTrigger("Walk");
-            animator.ResetTrigger("Idle");
+            animator.SetTrigger(Walk);
+            animator.ResetTrigger(Idle);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Animal"))
+        if (!other.CompareTag("Animal"))
         {
-            ResetTarget(other.transform);
-            playerController.AddAnimal();
-            Destroy(other.gameObject);
+            return;
         }
+
+        ResetTarget(other.transform);
+        playerController.AddAnimal();
+        Destroy(other.gameObject);
     }
 
     public void SetTargetAnimal(Transform animal)
