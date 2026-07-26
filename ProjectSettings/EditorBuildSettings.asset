@@ -6,12 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/ShaderWarmup.unity
+    guid: 484b2253c69a33b47bbcf645c3bc8008
+  - enabled: 1
     path: Assets/Scenes/MainLevel.unity
     guid: 3c0ea0926639b084d9dc1e7712c63c16
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: a547ab7cded5a7841849effb37bafb0b,
-      type: 3}
-  m_UseUCBPForAssetBundles: 0
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: a547ab7cded5a7841849effb37bafb0b, type: 3}
